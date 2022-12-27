@@ -1,0 +1,64 @@
+CRITICAL - 2022-12-17 00:03:33 --> Undefined variable $diskon
+in APPPATH\Views\shop\product.php on line 280.
+ 1 APPPATH\Views\shop\product.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diskon', 'APPPATH\\Views\\shop\\product.php', 280)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\shop.php(79): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 00:04:19 --> Undefined variable $diskon
+in APPPATH\Views\shop\product.php on line 280.
+ 1 APPPATH\Views\shop\product.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diskon', 'APPPATH\\Views\\shop\\product.php', 280)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\shop\\product.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('shop/product', [], true)
+ 5 APPPATH\Controllers\shop.php(79): view('shop/product', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 00:47:06 --> Undefined property: App\Controllers\Shop::$diskon
+in APPPATH\Controllers\shop.php on line 71.
+ 1 APPPATH\Controllers\shop.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop::$diskon', 'APPPATH\\Controllers\\shop.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 01:00:09 --> Undefined property: App\Controllers\Shop::$diskon
+in APPPATH\Controllers\shop.php on line 71.
+ 1 APPPATH\Controllers\shop.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop::$diskon', 'APPPATH\\Controllers\\shop.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 01:00:11 --> Undefined property: App\Controllers\Shop::$diskon
+in APPPATH\Controllers\shop.php on line 71.
+ 1 APPPATH\Controllers\shop.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop::$diskon', 'APPPATH\\Controllers\\shop.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 01:00:53 --> Undefined property: App\Controllers\Shop::$diskon
+in APPPATH\Controllers\shop.php on line 71.
+ 1 APPPATH\Controllers\shop.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop::$diskon', 'APPPATH\\Controllers\\shop.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 01:01:09 --> Undefined property: App\Controllers\Shop::$diskon
+in APPPATH\Controllers\shop.php on line 71.
+ 1 APPPATH\Controllers\shop.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop::$diskon', 'APPPATH\\Controllers\\shop.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 01:49:15 --> Undefined property: App\Controllers\Shop::$diskon
+in APPPATH\Controllers\shop.php on line 71.
+ 1 APPPATH\Controllers\shop.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Shop::$diskon', 'APPPATH\\Controllers\\shop.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Shop->product('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

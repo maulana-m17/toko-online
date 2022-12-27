@@ -1,0 +1,126 @@
+ERROR - 2022-12-10 02:13:41 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/app/Controllers/Auth.php(66): CodeIgniter\BaseModel->first()
+#7 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Auth->login()
+#8 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/app/Controllers/Auth.php(66): CodeIgniter\BaseModel->first()
+#6 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Auth->login()
+#7 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 02:13:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Auth.php(66): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Auth->login()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 02:16:18 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(749): CodeIgniter\Model->doInsert()
+#6 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#7 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(659): CodeIgniter\Model->insert()
+#8 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/app/Controllers/Auth.php(37): CodeIgniter\BaseModel->save()
+#9 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Auth->register()
+#10 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#11 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#3 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#4 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(749): CodeIgniter\Model->doInsert()
+#5 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(667): CodeIgniter\BaseModel->insert()
+#6 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(659): CodeIgniter\Model->insert()
+#7 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/app/Controllers/Auth.php(37): CodeIgniter\BaseModel->save()
+#8 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Auth->register()
+#9 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#10 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-10 02:16:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH/BaseModel.php(749): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH/Model.php(667): CodeIgniter\BaseModel->insert()
+ 6 SYSTEMPATH/BaseModel.php(659): CodeIgniter\Model->insert()
+ 7 APPPATH/Controllers/Auth.php(37): CodeIgniter\BaseModel->save()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Auth->register()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-10 02:22:41 --> Error connecting to the database: mysqli_sql_exception: Too many connections in /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/app/Controllers/Auth.php(66): CodeIgniter\BaseModel->first()
+#7 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Auth->login()
+#8 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/app/Controllers/Auth.php(66): CodeIgniter\BaseModel->first()
+#6 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(927): App\Controllers\Auth->login()
+#7 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/vendor/codeigniter4/framework/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/datamhs/fasilkom/a11/a111912340/htdocs/toko_online/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-10 02:22:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Auth.php(66): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Auth->login()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
